@@ -1,0 +1,642 @@
+
+
+
+* {
+    
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .gridbox{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        /* grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr; */
+        grid-template-areas: 
+        "chemical"
+        'phonebox'
+        'keyboard'
+        'controller'
+        'oldscreen'
+        'twitter'
+        'laptop'
+        'flappy'
+        'popular'
+        'greentv'
+        ;
+        
+    }
+    .box1 {
+        
+        padding: .67rem;
+        grid-area: chemical;
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: center;
+        background-color: #F7F8F9;
+    
+    }
+    .box2 img {
+        width: 80vw;
+        height: 80vh;
+        margin-top: .67rem;
+        
+    }
+    .box2 {
+        padding-top: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        background-color: #FFFFFF;
+        grid-area: phonebox;
+    }
+    .box3 {
+        padding: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        text-align: center;
+        background-color: #F05638;
+        grid-area: keyboard;
+    }
+    .box3 img {
+        width: 80vw;
+        
+        margin-top: .67rem;
+        
+    }
+    .box4 {
+        padding: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        text-align: center;
+        background-color: #F7F8F9;
+        grid-area: controller;
+    }
+    .box4 img {
+        width: 80vw;
+        margin-right: 5rem;
+        margin-top: .67rem;
+        
+    }
+   
+    .box5 img {
+        width: 30rem;
+        margin-top: .67rem;
+        
+    }
+    .box5 {
+        overflow-x: clip;
+        padding-top: .67rem;
+        padding-left: 1rem;
+        
+        display: grid;
+        justify-content: left;
+        flex-flow: row wrap;
+        text-align: left;
+        background-color: #FFFFFF;
+        grid-area: oldscreen;
+    }
+    .box6 {
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-area: twitter;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: #38D5F4;
+        z-index: 1;
+    }
+    /* .img6 h1 {
+        margin-right: -6rem;
+    }
+    .circle {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: -12rem;
+       
+background-color: #35CFED;
+border: solid ;
+
+border-radius: 100%;
+    } */
+    .box6 img {
+        margin-left: 5rem;
+        z-index: 1;
+       
+    }
+    .box7 {
+        
+        background-color: #93B6B7;
+        display: grid;
+        justify-content: center;
+        grid-area: laptop;
+        text-align: center;
+        padding-top: .67rem;
+        
+    }
+    .box7 span {
+        text-align: left;
+        background-color: #FA684F;
+        border-radius: 12px;
+        display: inline;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box7 img {
+        width: 30rem;
+        margin-left: -5rem;
+    }
+    .box8 {
+        
+        background-color: #8F76BC;
+        justify-content: center;
+        text-align: center;
+        flex-flow: row wrap;
+        grid-area: flappy;
+        padding: 2rem;
+         
+    }
+    .box8 span {
+        display: block;
+    }
+    .box8 a {
+        text-align: left;
+        background-color: #FFC80A;
+        border-radius: 12px;
+        display: inline;
+        width: fit-content;
+        padding: .5rem;
+    }
+
+   
+    .box9 {
+        
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        grid-area: popular;
+    } 
+    .box9 span {
+        text-align: center;
+        background-color: #7BC424;
+        border-radius: 12px;
+        margin-left: 6rem;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box0 {
+        
+        background-color: #2c2c2c;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        grid-area: greentv;
+        color: white;
+    }
+    .box0 img {
+        margin-left: -12rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .gridbox{
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        /* grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr; */
+        grid-template-areas: 
+        "chemical"
+        'phonebox'
+        'keyboard'
+        'controller'
+        'oldscreen'
+        'twitter'
+        'laptop'
+        'flappy'
+        'popular'
+        'greentv'
+        ;
+        
+    }
+    .box1 {
+        
+        padding: .67rem;
+        grid-area: chemical;
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: center;
+        background-color: #F7F8F9;
+    
+    }
+    .box2 img {
+        width: 80vw;
+        height: 80vh;
+        margin-top: .67rem;
+        
+    }
+    .box2 {
+        padding-top: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        background-color: #FFFFFF;
+        grid-area: phonebox;
+    }
+    .box3 {
+        padding: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        text-align: center;
+        background-color: #F05638;
+        grid-area: keyboard;
+    }
+    .box3 img {
+        width: 80vw;
+        
+        margin-top: .67rem;
+        
+    }
+    .box4 {
+        padding: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        text-align: center;
+        background-color: #F7F8F9;
+        grid-area: controller;
+    }
+    .box4 img {
+        width: 80vw;
+        margin-right: 5rem;
+        margin-top: .67rem;
+        
+    }
+   
+    .box5 img {
+        width: 30rem;
+        margin-top: .67rem;
+        
+    }
+    .box5 {
+        overflow-x: clip;
+        padding-top: .67rem;
+        padding-left: 1rem;
+        
+        display: grid;
+        justify-content: left;
+        flex-flow: row wrap;
+        text-align: left;
+        background-color: #FFFFFF;
+        grid-area: oldscreen;
+    }
+    .box6 {
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-area: twitter;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: #38D5F4;
+        z-index: 1;
+    }
+    /* .img6 h1 {
+        margin-right: -6rem;
+    }
+    .circle {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: -12rem;
+       
+background-color: #35CFED;
+border: solid ;
+
+border-radius: 100%;
+    } */
+    .box6 img {
+        margin-left: 5rem;
+        z-index: 1;
+       
+    }
+    .box7 {
+        
+        background-color: #93B6B7;
+        display: grid;
+        justify-content: center;
+        grid-area: laptop;
+        text-align: center;
+        padding-top: .67rem;
+        
+    }
+    .box7 span {
+        text-align: left;
+        background-color: #FA684F;
+        border-radius: 12px;
+        display: inline;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box7 img {
+        width: 30rem;
+        margin-left: -5rem;
+    }
+    .box8 {
+        
+        background-color: #8F76BC;
+        justify-content: center;
+        text-align: center;
+        flex-flow: row wrap;
+        grid-area: flappy;
+        padding: 2rem;
+         
+    }
+    .box8 span {
+        display: block;
+    }
+    .box8 a {
+        text-align: left;
+        background-color: #FFC80A;
+        border-radius: 12px;
+        display: inline;
+        width: fit-content;
+        padding: .5rem;
+    }
+
+   
+    .box9 {
+        
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        grid-area: popular;
+    } 
+    .box9 span {
+        text-align: center;
+        background-color: #7BC424;
+        border-radius: 12px;
+        margin-left: 6rem;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box0 {
+        
+        background-color: #2c2c2c;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        grid-area: greentv;
+        color: white;
+    }
+    .box0 img {
+        margin-left: -12rem;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .gridbox{
+        display: grid;
+        width: 100vw;
+        height: fit-content;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+        grid-template-areas: 
+        "phonebox phonebox chemical chemical"
+        'phonebox phonebox chemical chemical'
+        "phonebox phonebox chemical chemical"
+        'phonebox phonebox chemical chemical'
+        'keyboard oldscreen oldscreen flappy'
+        'keyboard oldscreen oldscreen flappy'
+        'controller laptop laptop flappy'
+        'controller laptop laptop flappy'
+        'twitter popular greentv greentv'
+       
+        ;
+        
+    }
+    .box1 {
+        
+        padding: .67rem;
+        grid-area: chemical;
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: center;
+        background-color: #F7F8F9;
+    
+    }
+    .box2 img {
+        width: 80%;
+        height: 80%;
+        margin-top: .67rem;
+        
+    }
+    .box2 {
+        padding-top: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: column wrap;
+        text-align: left;
+        background-color: #FFFFFF;
+        grid-area: phonebox;
+    }
+    .box3 {
+        padding: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        text-align: center;
+        background-color: #F05638;
+        grid-area: keyboard;
+    }
+    .box3 img {
+        width: 80%;
+        
+        margin-top: .67rem;
+        
+    }
+    .box4 {
+        padding: .67rem;
+        
+        display: grid;
+        justify-content: center;
+        flex-flow: row wrap;
+        text-align: left;
+        text-align: center;
+        background-color: #F7F8F9;
+        grid-area: controller;
+    }
+    .box4 img {
+        width: 80%;
+        margin-right: 5rem;
+        margin-top: .67rem;
+        
+    }
+   
+    .box5 img {
+        width: 30rem;
+        margin-top: .67rem;
+        
+    }
+    .box5 {
+        overflow-x: clip;
+        padding-top: .67rem;
+        padding-left: 1rem;
+        
+        display: grid;
+        justify-content: left;
+        flex-flow: row wrap;
+        text-align: left;
+        background-color: #FFFFFF;
+        grid-area: oldscreen;
+    }
+    .box6 {
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-area: twitter;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-color: #38D5F4;
+        z-index: 1;
+    }
+    /* .img6 h1 {
+        margin-right: -6rem;
+    }
+    .circle {
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: -12rem;
+       
+background-color: #35CFED;
+border: solid ;
+
+border-radius: 100%;
+    } */
+    .box6 img {
+        margin-left: 5rem;
+        z-index: 1;
+       
+    }
+    .box7 {
+        
+        background-color: #93B6B7;
+        display: grid;
+        justify-content: center;
+        grid-area: laptop;
+        text-align: center;
+        padding-top: .67rem;
+        
+    }
+    .box7 span {
+        text-align: left;
+        background-color: #FA684F;
+        border-radius: 12px;
+        display: inline;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box7 img {
+        width: 30rem;
+        margin-left: -5rem;
+    }
+    .box8 {
+        
+        background-color: #8F76BC;
+        justify-content: center;
+        text-align: center;
+        flex-flow: row wrap;
+        grid-area: flappy;
+        padding: 2rem;
+         
+    }
+    .box8 span {
+        display: block;
+    }
+    .box8 a {
+        text-align: left;
+        background-color: #FFC80A;
+        border-radius: 12px;
+        display: inline;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box8 img {
+        width: 80%;
+        
+    }
+
+   
+    .box9 {
+        
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        grid-area: popular;
+    } 
+    .box9 span {
+        text-align: center;
+        background-color: #7BC424;
+        border-radius: 1rem;
+        margin-left: 6rem;
+        width: fit-content;
+        padding: .5rem;
+    }
+    .box0 {
+        
+        background-color: #2c2c2c;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        grid-area: greentv;
+        color: white;
+    }
+    .box0 img {
+        margin-left: -12rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
